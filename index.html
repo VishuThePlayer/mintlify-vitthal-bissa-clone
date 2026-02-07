@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintlify Vitthal Bissa Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <a href="#" class="logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#0D9373" />
+                        <path d="M2 17L12 22L22 17" stroke="#0D9373" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M2 12L12 17L22 12" stroke="#0D9373" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <span>Mintlify Vitthal Bissa Clone</span>
+                </a>
+                <nav class="navbar-nav">
+                    <a href="#" class="nav-link">Resources</a>
+                    <a href="#" class="nav-link">Documentation</a>
+                    <a href="#" class="nav-link">Customers</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Pricing</a>
+                </nav>
+            </div>
+            <div class="navbar-right">
+                <a href="#" class="nav-link">Contact sales</a>
+                <a href="#" class="btn btn-primary">Start for free</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Announcement Banner -->
+    <div class="announcement-banner">
+        <span class="badge">NEW</span>
+        <span>Self-updating docs with agent suggestions</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 16l4-4-4-4M8 12h8" />
+        </svg>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-clouds"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">The <em>Intelligent</em> Knowledge Platform</h1>
+            <p class="hero-subtitle">Turn your company's knowledge into accurate, agent-ready context</p>
+            <div class="hero-cta">
+                <input type="email" placeholder="Email address" class="email-input">
+                <button class="btn btn-dark">Start now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Preview Section -->
+    <section class="docs-preview">
+        <div class="docs-container">
+            <div class="docs-sidebar">
+                <div class="sidebar-logo">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#0D9373" />
+                        <path d="M2 17L12 22L22 17" stroke="#0D9373" stroke-width="2" />
+                        <path d="M2 12L12 17L22 12" stroke="#0D9373" stroke-width="2" />
+                    </svg>
+                    <span>mintlify</span>
+                </div>
+                <div class="sidebar-nav">
+                    <a href="#" class="sidebar-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 16v-4M12 8h.01" />
+                        </svg>
+                        Ask Assistant
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />
+                            <polyline points="13 2 13 9 20 9" />
+                        </svg>
+                        Quickstart
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                        </svg>
+                        Global Settings
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                        AI Optimization
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                            <line x1="3" y1="9" x2="21" y2="9" />
+                            <line x1="9" y1="21" x2="9" y2="9" />
+                        </svg>
+                        Components
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                        </svg>
+                        Themes
+                    </a>
+                </div>
+            </div>
+            <div class="docs-main">
+                <div class="docs-header">
+                    <nav class="docs-tabs">
+                        <a href="#" class="docs-tab active">Guides</a>
+                        <a href="#" class="docs-tab">API Reference</a>
+                        <a href="#" class="docs-tab">Changelog</a>
+                    </nav>
+                    <div class="docs-search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="11" cy="11" r="8" />
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                        </svg>
+                        <span>Search or ask</span>
+                        <span class="search-shortcut">⌘K</span>
+                    </div>
+                    <button class="btn btn-outline">Ask AI</button>
+                </div>
+                <div class="docs-content">
+                    <div class="docs-breadcrumb">Getting Started</div>
+                    <h2 class="docs-title">Quickstart Guide</h2>
+                    <p class="docs-description">Start building intelligent documentation in under five minutes</p>
+                    <div class="docs-cards">
+                        <div class="docs-card">
+                            <div class="card-icon card-icon-blue">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                    <polyline points="14 2 14 8 20 8" />
+                                    <line x1="16" y1="13" x2="8" y2="13" />
+                                    <line x1="16" y1="17" x2="8" y2="17" />
+                                    <polyline points="10 9 9 9 8 9" />
+                                </svg>
+                            </div>
+                            <h3>Create Your First Page</h3>
+                            <p>Learn how to set up your documentation structure</p>
+                        </div>
+                        <div class="docs-card">
+                            <div class="card-icon card-icon-green">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="3" y1="9" x2="21" y2="9" />
+                                    <line x1="9" y1="21" x2="9" y2="9" />
+                                </svg>
+                            </div>
+                            <h3>Configure Components</h3>
+                            <p>Add interactive elements to enhance your docs</p>
+                        </div>
+                        <div class="docs-card">
+                            <div class="card-icon card-icon-purple">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                    <path d="M2 17l10 5 10-5" />
+                                    <path d="M2 12l10 5 10-5" />
+                                </svg>
+                            </div>
+                            <h3>Deploy Your Docs</h3>
+                            <p>Publish your documentation to the web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="docs-sidebar-right">
+                    <h4>On this page</h4>
+                    <ul>
+                        <li><a href="#" class="active">Introduction</a></li>
+                        <li><a href="#">Getting started</a></li>
+                        <li><a href="#">AI optimization</a></li>
+                        <li><a href="#">Themes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By / Logos Section -->
+    <section class="trusted-by">
+        <div class="container">
+            <p class="trusted-text">Helping teams create and maintain world-class documentation built for both humans
+                and AI</p>
+            <button class="btn btn-dark trusted-cta">Start now</button>
+            <div class="logo-grid">
+                <div class="company-logo">
+                    <img src="logo/Anthropic Ai.svg" alt="Anthropic">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Coinbase New 2021.svg" alt="Coinbase">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Microsoft Icon.svg" alt="Microsoft">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Perplexity.svg" alt="Perplexity">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/HubSpot.svg" alt="HubSpot">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/X Twitter.svg" alt="X">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/PayPal New 2023.svg" alt="PayPal">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Lovable.svg" alt="Lovable">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Built for the intelligence age</h2>
+            <p class="section-subtitle">Integrate AI into every part of your docs lifecycle. Woven into how your
+                knowledge is written, maintained, and understood by both users and LLMs.</p>
+
+            <div class="feature-grid">
+                <!-- Feature 1: LLMS.TXT & MCP -->
+                <div class="feature-card feature-large">
+                    <div class="feature-label">LLMS.TXT & MCP</div>
+                    <h3 class="feature-title">Built for both people and AI</h3>
+                    <p class="feature-description">Ensure your product shows up in the AI workflows users already rely
+                        on. We support llms.txt, MCP, and whatever comes next.</p>
+                    <div class="feature-image">
+                        <div class="code-preview">
+                            <div class="code-header">
+                                <span class="code-dot"></span>
+                                <span class="code-dot"></span>
+                                <span class="code-dot"></span>
+                            </div>
+                            <pre><code># Mintlify llms.txt
+
+> Documentation for Mintlify
+
+## Docs
+
+- [Getting Started](https://mintlify.com/docs)
+- [Components](https://mintlify.com/docs/components)
+- [API Reference](https://mintlify.com/docs/api)</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Agent -->
+                <div class="feature-card feature-large">
+                    <div class="feature-label">AGENT</div>
+                    <h3 class="feature-title">Self-updating knowledge management</h3>
+                    <p class="feature-description">Draft, edit, and maintain content with a context-aware agent. Move
+                        faster and more consistently without the documentation debt.</p>
+                    <div class="feature-image">
+                        <div class="agent-preview">
+                            <div class="agent-suggestion">
+                                <div class="suggestion-header">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0D9373"
+                                        stroke-width="2">
+                                        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z" />
+                                        <path d="M12 6v6l4 2" />
+                                    </svg>
+                                    <span>Agent Suggestion</span>
+                                </div>
+                                <p>Update API endpoint documentation to reflect new v2 changes</p>
+                                <div class="suggestion-actions">
+                                    <button class="btn btn-small btn-accept">Accept</button>
+                                    <button class="btn btn-small btn-dismiss">Dismiss</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Assistant -->
+                <div class="feature-card feature-wide">
+                    <div class="feature-label">ASSISTANT</div>
+                    <h3 class="feature-title">Intelligent assistance for your users</h3>
+                    <p class="feature-description">Turn every documentation visit into a guided conversation. Your AI
+                        assistant understands context and delivers what users need.</p>
+                    <div class="feature-image assistant-image">
+                        <div class="chat-preview">
+                            <div class="chat-message user">
+                                <span>How do I integrate the API?</span>
+                            </div>
+                            <div class="chat-message assistant">
+                                <span>To integrate our API, you'll need to first obtain an API key from your dashboard.
+                                    Here's a quick example:</span>
+                                <div class="code-snippet">
+                                    <code>curl -X POST https://api.example.com/v1</code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Intelligent Assistant / UI Preview Section -->
+    <section class="ui-preview">
+        <div class="container">
+            <div class="ui-content">
+                <div class="ui-text">
+                    <div class="feature-label">ENTERPRISE-REINVENTION</div>
+                    <h2 class="section-title">Bring intelligence to enterprise knowledge</h2>
+                    <p class="section-description">Modernize without the rebuild with enterprise-grade professional
+                        service & security.</p>
+                    <a href="#" class="btn btn-primary">Explore for enterprise</a>
+                </div>
+                <div class="ui-mockup">
+                    <div class="mockup-window">
+                        <div class="mockup-header">
+                            <span class="mockup-dot red"></span>
+                            <span class="mockup-dot yellow"></span>
+                            <span class="mockup-dot green"></span>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-sidebar">
+                                <div class="mockup-nav-item active"></div>
+                                <div class="mockup-nav-item"></div>
+                                <div class="mockup-nav-item"></div>
+                                <div class="mockup-nav-item"></div>
+                            </div>
+                            <div class="mockup-main">
+                                <div class="mockup-title"></div>
+                                <div class="mockup-text"></div>
+                                <div class="mockup-text short"></div>
+                                <div class="mockup-code"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Enterprise Features Section -->
+    <section class="enterprise-features">
+        <div class="container">
+            <div class="enterprise-grid">
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0D9373" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3>Build with partnership</h3>
+                    <p>Direct, white-glove access to our documentation experts. Dedicated migration support and guidance
+                        tailored to your setup, and elevated support SLAs.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0D9373" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                        </svg>
+                    </div>
+                    <h3>Compliance and access control</h3>
+                    <p>Compliant with SOC 2, and in the process for ISO/27001 and GDPR compliance to meet your internal
+                        and external data requirements. Secure access and provisioning with SAML-based SSO.</p>
+                </div>
+            </div>
+
+            <div class="enterprise-logos">
+                <div class="company-logo">
+                    <img src="logo/Anthropic Ai.svg" alt="Anthropic">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Coinbase New 2021.svg" alt="Coinbase">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/HubSpot.svg" alt="HubSpot">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Perplexity.svg" alt="Perplexity">
+                </div>
+                <div class="company-logo">
+                    <img src="logo/Vercel.svg" alt="Vercel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies / Customer Stories Section -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">CUSTOMERS</span>
+                <h2 class="section-title">Unlock knowledge for any industry</h2>
+                <p class="section-subtitle">From frontier AI companies to consumer brands, leaders across industries
+                    scale with Mintlify.</p>
+            </div>
+            <div class="case-study-grid">
+                <div class="case-study-card">
+                    <div class="case-study-logo">
+                        <img src="logo/Perplexity.svg" alt="Perplexity">
+                    </div>
+                    <h3>Perplexity</h3>
+                    <p>How Perplexity transformed its documentation into an AI-native developer experience that matches
+                        the pace of its product development</p>
+                    <a href="#" class="case-study-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-logo">
+                        <img src="logo/X Twitter.svg" alt="X">
+                    </div>
+                    <h3>X</h3>
+                    <p>How X is using Mintlify to power the developer experience for the global town square</p>
+                    <a href="#" class="case-study-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-logo">
+                        <img src="logo/Cognition-labs-logo-1.png" alt="Cognition">
+                    </div>
+                    <h3>Cognition</h3>
+                    <p>How Cognition scaled their documentation to mirror their product ethos</p>
+                    <a href="#" class="case-study-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-logo">
+                        <img src="logo/Vercel.svg" alt="Vercel">
+                    </div>
+                    <h3>Vercel</h3>
+                    <p>How Vercel scaled their API reference collection with Mintlify to meet the needs of their growing
+                        developer community</p>
+                    <a href="#" class="case-study-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-logo">
+                        <img src="logo/Lovable.svg" alt="Lovable">
+                    </div>
+                    <h3>Lovable</h3>
+                    <p>How Lovable scaled their onboarding and support with Mintlify's AI-native documentation</p>
+                    <a href="#" class="case-study-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-logo">
+                        <img src="logo/Replit.svg" alt="Replit">
+                    </div>
+                    <h3>Replit</h3>
+                    <p>Learn how Replit uses Mintlify to turn documentation into a fast, collaborative, and accessible
+                        workflow</p>
+                    <a href="#" class="case-study-link">Read story →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call-To-Action Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="cta-title">Make documentation your winning advantage</h2>
+            <p class="cta-subtitle">Join the leaders of tomorrow to future proof your documentation today.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Get started for free</a>
+                <a href="#" class="btn btn-outline-dark">Get a demo</a>
+            </div>
+            <div class="cta-cards">
+                <div class="cta-card">
+                    <h3>Pricing on your terms</h3>
+                    <p>Pick the plan that works best for you</p>
+                    <a href="#" class="cta-card-link">Pricing details →</a>
+                </div>
+                <div class="cta-card">
+                    <h3>Start building</h3>
+                    <p>Deploy your documentation in minutes</p>
+                    <a href="#" class="cta-card-link">Quickstart →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#0D9373" />
+                            <path d="M2 17L12 22L22 17" stroke="#0D9373" stroke-width="2" />
+                            <path d="M2 12L12 17L22 12" stroke="#0D9373" stroke-width="2" />
+                        </svg>
+                        <span>mintlify</span>
+                    </a>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>EXPLORE</h4>
+                        <ul>
+                            <li><a href="#">Startups</a></li>
+                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#">Switch</a></li>
+                            <li><a href="#">OSS Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>RESOURCES</h4>
+                        <ul>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Feature Requests</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>DOCUMENTATION</h4>
+                        <ul>
+                            <li><a href="#">Getting Started</a></li>
+                            <li><a href="#">API Reference</a></li>
+                            <li><a href="#">Components</a></li>
+                            <li><a href="#">Changelog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>COMPANY</h4>
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Wall of Love</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>LEGAL</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Responsible Disclosure</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">DSR/DSAR</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="security-badges">
+                    <span class="badge-text">Backed By Enterprise-Grade Security</span>
+                    <div class="badges">
+                        <div class="security-badge">
+                            <span>SOC 2</span>
+                        </div>
+                        <div class="security-badge">
+                            <span>AICPA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <a href="#" class="status-link">
+                        <span class="status-dot"></span>
+                        All systems normal
+                    </a>
+                    <span class="copyright">© 2026 Mintlify, Inc.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
